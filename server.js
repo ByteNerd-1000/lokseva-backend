@@ -12,7 +12,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 // Connect to Database
-connectDB();
+//connectDB();
 
 // Use educator routes
 app.use("/api", educatorRoutes);
